@@ -3,7 +3,7 @@ id: klor
 name: KLOR
 type: shield
 url: https://github.com/GEIGEIGEIST/KLOR
-requires: [pro_micro]
+requires: [pro_micro, seeeduino_xiao_ble]
 features:
   - keys
 siblings:

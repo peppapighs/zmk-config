@@ -1,0 +1,16 @@
+#include "anywhy_flake_common.dtsi"
+
+/ {
+    chosen {
+        zmk,kscan = &mock_kscan;
+        zmk,matrix-transform = &large_transform;
+    };
+
+    mock_kscan: kscan0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
+    };
+
+};
